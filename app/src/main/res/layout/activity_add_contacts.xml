@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="8"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="64sp"
+            android:layout_height="64sp"
+            android:src="@drawable/ic_people_black_24dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="5sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+
+            android:backgroundTint="@color/cardView"
+            app:cardElevation="10sp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT 1"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/name1"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:hint="NAME"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"/>
+
+
+            <EditText
+                android:id="@+id/number1"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:hint="CONTACT"
+                android:inputType="number"
+                android:textColor="#FFFFFFFF"
+                android:textAlignment="center"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="5sp"
+            android:backgroundTint="@color/cardView"
+            app:cardElevation="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT 2"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/name2"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:hint="NAME"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"/>
+
+
+            <EditText
+                android:id="@+id/number2"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:hint="CONTACT"
+                android:inputType="number"
+                android:textColor="#FFFFFFFF"
+                android:textAlignment="center"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="5sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:backgroundTint="@color/cardView"
+            app:cardElevation="10sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACT 3"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/name3"
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:hint="NAME"
+                    android:textColor="#FFFFFF"
+                    android:textAlignment="center"/>
+
+
+                <EditText
+                    android:id="@+id/number3"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:hint="CONTACT"
+                    android:inputType="number"
+                    android:textColor="#FFFFFFFF"
+                    android:textAlignment="center"/>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="5sp"
+            android:backgroundTint="@color/cardView"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            app:cardElevation="10sp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT 4"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/name4"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:hint="NAME"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"/>
+
+
+            <EditText
+                android:id="@+id/number4"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:hint="CONTACT"
+                android:inputType="number"
+                android:textColor="#FFFFFFFF"
+                android:textAlignment="center"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/saveFab"
+        android:layout_width="64sp"
+        android:layout_height="64sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</RelativeLayout>
