@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome,"
-        android:color="@color/colorAccent"
+       
         android:layout_centerHorizontal="true"
         android:layout_margin="20sp"
         android:textSize="30sp"/>
