@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "660278769993",
+    "firebase_url": "https://indira-18118.firebaseio.com",
+    "project_id": "indira-18118",
+    "storage_bucket": "indira-18118.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660278769993:android:2a991a838e0abc70",
+        "android_client_info": {
+          "package_name": "com.example.android.indira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660278769993-0vdj04676ef15v7ihs54olk05csps4u8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.indira",
+            "certificate_hash": "ca1188e5a9f5e70d31a7c808c2a9d6749b1282bb"
+          }
+        },
+        {
+          "client_id": "660278769993-raub6i6o18a63t7glvfnes1n2e2pqlb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYuA8lr1LOM_hgKr-HpG33YUyik3MazZI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660278769993-raub6i6o18a63t7glvfnes1n2e2pqlb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
