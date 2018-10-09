@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context="com.rootonelabs.vicky.hackathontools.addContacts">
 
 
 
@@ -38,12 +39,14 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="6"
-                android:gravity="center">
+                android:gravity="center"
+                >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="CONTACT 1"
+                android:textSize="18sp"
                 android:layout_margin="5dp"
                 android:textColor="@color/colorAccent"
                 android:textStyle="bold"/>
@@ -59,7 +62,7 @@
 
             <EditText
                 android:id="@+id/number1"
-                android:layout_width="200sp"
+                android:layout_width="150sp"
                 android:layout_height="wrap_content"
                 android:hint="CONTACT"
                 android:inputType="number"
@@ -93,6 +96,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="CONTACT 2"
+                android:textSize="18sp"
                 android:layout_margin="5dp"
                 android:textColor="@color/colorAccent"
                 android:textStyle="bold"/>
@@ -108,7 +112,7 @@
 
             <EditText
                 android:id="@+id/number2"
-                android:layout_width="200sp"
+                android:layout_width="150sp"
                 android:layout_height="wrap_content"
                 android:hint="CONTACT"
                 android:inputType="number"
@@ -140,6 +144,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="CONTACT 3"
+                    android:textSize="18sp"
                     android:layout_margin="5dp"
                     android:textColor="@color/colorAccent"
                     android:textStyle="bold"/>
@@ -155,7 +160,7 @@
 
                 <EditText
                     android:id="@+id/number3"
-                    android:layout_width="200sp"
+                    android:layout_width="150sp"
                     android:layout_height="wrap_content"
                     android:hint="CONTACT"
                     android:inputType="number"
@@ -192,6 +197,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="CONTACT 4"
+                android:textSize="18sp"
                 android:layout_margin="5dp"
                 android:textColor="@color/colorAccent"
                 android:textStyle="bold"/>
@@ -207,7 +213,7 @@
 
             <EditText
                 android:id="@+id/number4"
-                android:layout_width="200sp"
+                android:layout_width="150sp"
                 android:layout_height="wrap_content"
                 android:hint="CONTACT"
                 android:inputType="number"
