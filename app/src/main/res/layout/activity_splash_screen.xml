@@ -39,7 +39,7 @@
             android:textSize="24sp"
             android:layout_weight="1"
             android:layout_margin="10sp"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/backgroundRed"
             android:textStyle="bold"/>
 
         <Button
